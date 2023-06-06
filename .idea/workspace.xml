@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28db2b77-fc5d-425b-a05f-980281009970" name="Changes" comment="Decorator and Facade patterns">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/flyweight/CppDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/flyweight/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/flyweight/DeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/flyweight/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/flyweight/ProjectRunner.java" afterDir="false" />
+    <list default="true" id="28db2b77-fc5d-425b-a05f-980281009970" name="Changes" comment="Flyweight pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/ProjectRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/ProxyProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/RealProject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +55,13 @@
       <recent name="DenWorker.ru.bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProjectRunner">
-    <configuration name="ProgramCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.bridge.programs.ProgramCreator" />
+  <component name="RunManager" selected="Application.DenWorker.ru.proxy.ProjectRunner">
+    <configuration name="DenWorker.ru.proxy.ProjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.proxy.ProjectRunner" />
       <module name="StructuralDesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DenWorker.ru.bridge.developers.*" />
+          <option name="PATTERN" value="DenWorker.ru.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DenWorker.ru.proxy.ProjectRunner" />
         <item itemvalue="Application.ProjectRunner" />
         <item itemvalue="Application.SprintRunner" />
         <item itemvalue="Application.Task" />
         <item itemvalue="Application.Project" />
-        <item itemvalue="Application.ProgramCreator" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685955519675</updated>
-      <workItem from="1685955520981" duration="11058000" />
+      <workItem from="1685955520981" duration="12857000" />
     </task>
     <task id="LOCAL-00001" summary="Create app">
       <created>1685955662839</created>
@@ -177,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685964541786</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Flyweight pattern">
+      <created>1686044566606</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686044566606</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +206,7 @@
     <MESSAGE value="Bridge pattern" />
     <MESSAGE value="Composite pattern" />
     <MESSAGE value="Decorator and Facade patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator and Facade patterns" />
+    <MESSAGE value="Flyweight pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flyweight pattern" />
   </component>
 </project>
