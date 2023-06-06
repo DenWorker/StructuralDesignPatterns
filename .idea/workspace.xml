@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28db2b77-fc5d-425b-a05f-980281009970" name="Changes" comment="Composite pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/decorator/DeveloperDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/decorator/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/decorator/developers/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/decorator/developers/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/decorator/developers/JavaTeamLead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/decorator/developers/SeniorJavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/facade/BugTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/facade/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/facade/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/facade/SprintRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/facade/Workflow.java" afterDir="false" />
+    <list default="true" id="28db2b77-fc5d-425b-a05f-980281009970" name="Changes" comment="Decorator and Facade patterns">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/flyweight/CppDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/flyweight/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/flyweight/DeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/flyweight/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/flyweight/ProjectRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,20 +56,7 @@
       <recent name="DenWorker.ru.bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SprintRunner">
-    <configuration name="DatabaseRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.adapter.DatabaseRunner" />
-      <module name="StructuralDesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DenWorker.ru.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProjectRunner">
     <configuration name="ProgramCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DenWorker.ru.bridge.programs.ProgramCreator" />
       <module name="StructuralDesignPatterns" />
@@ -95,6 +76,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DenWorker.ru.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.flyweight.ProjectRunner" />
+      <module name="StructuralDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DenWorker.ru.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProjectRunner" />
         <item itemvalue="Application.SprintRunner" />
         <item itemvalue="Application.Task" />
         <item itemvalue="Application.Project" />
         <item itemvalue="Application.ProgramCreator" />
-        <item itemvalue="Application.DatabaseRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685955519675</updated>
-      <workItem from="1685955520981" duration="8772000" />
+      <workItem from="1685955520981" duration="11058000" />
     </task>
     <task id="LOCAL-00001" summary="Create app">
       <created>1685955662839</created>
@@ -176,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685960848264</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Decorator and Facade patterns">
+      <created>1685964541786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685964541786</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +199,7 @@
     <MESSAGE value="Adapter pattern" />
     <MESSAGE value="Bridge pattern" />
     <MESSAGE value="Composite pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Composite pattern" />
+    <MESSAGE value="Decorator and Facade patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator and Facade patterns" />
   </component>
 </project>
