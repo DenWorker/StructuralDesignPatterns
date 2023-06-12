@@ -1,6 +1,6 @@
 package DenWorker.ru.adapter;
 
-public class AdapterJavaToDatabase extends JavaApplication implements Database {
+public class AdapterDatabaseToJava extends JavaApplication implements Database {
     @Override
     public void insert() {
         saveObject();

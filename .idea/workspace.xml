@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28db2b77-fc5d-425b-a05f-980281009970" name="Changes" comment="Flyweight pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/ProjectRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/ProxyProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/RealProject.java" afterDir="false" />
+    <list default="true" id="28db2b77-fc5d-425b-a05f-980281009970" name="Changes" comment="Proxy pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/adapter/AdapterJavaToDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/adapter/AdapterDatabaseToJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/adapter/DatabaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/adapter/DatabaseRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ivano/Desktop/StructuralDesignPatterns&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="DenWorker.ru.bridge" />
@@ -139,7 +138,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685955519675</updated>
-      <workItem from="1685955520981" duration="12857000" />
+      <workItem from="1685955520981" duration="13939000" />
+      <workItem from="1686473589639" duration="578000" />
+      <workItem from="1686564827247" duration="999000" />
     </task>
     <task id="LOCAL-00001" summary="Create app">
       <created>1685955662839</created>
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686044566606</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Proxy pattern">
+      <created>1686046334689</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686046334689</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +215,7 @@
     <MESSAGE value="Composite pattern" />
     <MESSAGE value="Decorator and Facade patterns" />
     <MESSAGE value="Flyweight pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flyweight pattern" />
+    <MESSAGE value="Proxy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proxy pattern" />
   </component>
 </project>
