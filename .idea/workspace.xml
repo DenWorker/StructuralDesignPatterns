@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28db2b77-fc5d-425b-a05f-980281009970" name="Changes" comment="Proxy pattern">
+    <list default="true" id="28db2b77-fc5d-425b-a05f-980281009970" name="Changes" comment="Rename class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/adapter/AdapterJavaToDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/adapter/AdapterDatabaseToJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/adapter/DatabaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/adapter/DatabaseRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/ProxyProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/ProxyProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/RealProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DenWorker/ru/proxy/RealProject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Project" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.composite.Project" />
+    <configuration name="ProgramCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DenWorker.ru.bridge.programs.ProgramCreator" />
       <module name="StructuralDesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DenWorker.ru.composite.*" />
+          <option name="PATTERN" value="DenWorker.ru.bridge.programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,7 +126,7 @@
         <item itemvalue="Application.ProjectRunner" />
         <item itemvalue="Application.SprintRunner" />
         <item itemvalue="Application.Task" />
-        <item itemvalue="Application.Project" />
+        <item itemvalue="Application.ProgramCreator" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +140,7 @@
       <updated>1685955519675</updated>
       <workItem from="1685955520981" duration="13939000" />
       <workItem from="1686473589639" duration="578000" />
-      <workItem from="1686564827247" duration="999000" />
+      <workItem from="1686564827247" duration="16924000" />
     </task>
     <task id="LOCAL-00001" summary="Create app">
       <created>1685955662839</created>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686046334689</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Rename class">
+      <created>1686565863433</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686565863433</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +223,7 @@
     <MESSAGE value="Decorator and Facade patterns" />
     <MESSAGE value="Flyweight pattern" />
     <MESSAGE value="Proxy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proxy pattern" />
+    <MESSAGE value="Rename class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename class" />
   </component>
 </project>
